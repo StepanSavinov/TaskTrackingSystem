@@ -1,0 +1,9 @@
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\bin\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\bin\Debug\Epam.TaskTrackingSystem.Entities.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\obj\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.csprojAssemblyReference.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\obj\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\obj\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.csproj.CopyComplete
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\obj\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL.Interfaces\obj\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.pdb

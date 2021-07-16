@@ -1,0 +1,59 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
+    Page.Title = "Sign In";
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+
+    var email = Request["email"];
+    var password = Request["password"];
+
+    if (IsPost)
+    {
+        if (bll.SignIn(email, password))
+        {
+            FormsAuthentication.SetAuthCookie(email, createPersistentCookie: true);
+            Response.Redirect("/");
+        }
+
+        else if(!bll.SignIn(email, password))
+        {
+            <script>
+                alert("Incorrect email or password");
+            </script>
+        }
+    }
+}
+
+<div class="form-content">
+    <form method="post">
+        <div>
+            <h1 class="text">Sign In</h1>
+        </div>
+        <div>
+            <div>
+                <label class="text">
+                    <span>Email</span>
+                    <br />
+                    <input name="email" type="email" class="inputs" id="email" required>
+                </label>
+            </div>
+            <div>
+                <label class="text">
+                    <span>Password</span>
+                    <br />
+                    <input name="password" type="password" class="inputs" required>
+                </label>
+            </div>
+            <br />
+            <button type="submit" id="submit" class="btnSubmit">Sign In</button>
+        </div>
+    </form>
+</div>
+
+@*<script>
+        $('#submit').submit(function () {
+            location.href = 'pages/manager';
+        })
+    </script>*@

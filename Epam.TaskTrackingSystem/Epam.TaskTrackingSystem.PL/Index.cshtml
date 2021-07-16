@@ -1,0 +1,53 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
+    Page.Title = "Task Tracking System";
+
+    string email = String.Empty;
+
+    if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+    {
+        FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value);
+
+        email += ticket.Name;
+    }
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <span>@bll.GetUserRole(email)</span>
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*else
+    {
+        <div class="form-content">
+            <button id="loginBtn" type="button" class="btnSubmit">Sign in</button>
+        </div>
+    }
+
+
+    <script>
+        $('#loginBtn').click(function () {
+            location.href = '/pages/signin';
+        })
+    </script>*@

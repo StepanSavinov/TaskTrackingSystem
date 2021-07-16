@@ -1,0 +1,6 @@
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\bin\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\bin\Debug\Epam.TaskTrackingSystem.Entities.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\obj\Debug\Epam.TaskTrackingSystem.Entities.csprojAssemblyReference.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\obj\Debug\Epam.TaskTrackingSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\obj\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.Entities\obj\Debug\Epam.TaskTrackingSystem.Entities.pdb

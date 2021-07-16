@@ -1,0 +1,17 @@
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.DependencyResolver.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.DependencyResolver.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.BLL.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.BLL.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\obj\Debug\Epam.TaskTrackingSystem.DependencyResolver.csprojAssemblyReference.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\obj\Debug\Epam.TaskTrackingSystem.DependencyResolver.csproj.CoreCompileInputs.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\obj\Debug\Epam.TaskTrackingSystem.DependencyResolver.csproj.CopyComplete
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\obj\Debug\Epam.TaskTrackingSystem.DependencyResolver.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\obj\Debug\Epam.TaskTrackingSystem.DependencyResolver.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.DependencyResolver\bin\Debug\Epam.TaskTrackingSystem.Entities.pdb

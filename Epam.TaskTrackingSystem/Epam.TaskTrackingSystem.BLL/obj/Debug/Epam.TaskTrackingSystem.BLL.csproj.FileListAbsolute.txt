@@ -1,0 +1,15 @@
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.BLL.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.BLL.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.BLL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.Entities.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\obj\Debug\Epam.TaskTrackingSystem.BLL.csprojAssemblyReference.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\obj\Debug\Epam.TaskTrackingSystem.BLL.csproj.CoreCompileInputs.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\obj\Debug\Epam.TaskTrackingSystem.BLL.csproj.CopyComplete
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\obj\Debug\Epam.TaskTrackingSystem.BLL.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.BLL\obj\Debug\Epam.TaskTrackingSystem.BLL.pdb

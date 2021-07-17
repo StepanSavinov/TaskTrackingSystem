@@ -1,0 +1,64 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
+    Page.Title = "Employees list";
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+}
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="~/Content/images/epam-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <img class="toggler-icon" src="~/Content/images/hamburger.png" />
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="~/Pages/Manager.cshtml" aria-current="page">Back to manager page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <table class="table table-dark">
+        <tr class="table-dark">
+            <th class="table-dark">#</th>
+            <th class="table-dark">Email</th>
+            <th class="table-dark">Firstname</th>
+            <th class="table-dark">Lastname</th>
+            <th class="table-dark">Role</th>
+            <th class="table-dark">Task Id</th>
+        </tr>
+
+        @foreach (var employee in bll.GetEmployees())
+        {
+            <tr class="table-dark">
+                <td class="table-dark">
+                    @employee.Id
+                </td>
+                <td class="table-dark">
+                    @employee.Email
+                </td>
+                <td class="table-dark">
+                    @employee.Firstname
+                </td>
+                <td class="table-dark">
+                    @employee.Lastname
+                </td>
+                <td class="table-dark">
+                    @employee.Role
+                </td>
+                <td class="table-dark">
+                    @employee.Task_Id
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>

@@ -1,0 +1,39 @@
+﻿.navbar {
+    padding: 2.5%;
+    background-color: #555555;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.nav-link {
+    color: #51c6fc !important;
+    border-bottom: 1px solid transparent;
+}
+
+    .nav-link:hover {
+        border-bottom: 1px solid #51c6fc;
+    }
+
+.navbar-toggler {
+    color: #51c6fc;
+}
+
+.toggler-icon {
+    height: 32px;
+}
+
+.dropdown-menu {
+    background: #555555 !important;
+    width: fit-content;
+}
+
+.dropdown-item {
+    color: #51c6fc !important;
+}
+
+    .dropdown-item:hover {
+        background: transparent !important;
+        border-bottom: 1px solid #51c6fc;
+    }

@@ -1,0 +1,47 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
+    Page.Title = "Tasks";
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+
+    var empID = Request["emp"];
+    var taskID = Request["task"];
+
+
+
+    if (IsPost)
+    {
+        bll.AttachTaskToEmployee(Convert.ToInt32(taskID), Convert.ToInt32(empID));
+    }
+
+}
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="~/Content/images/epam-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <img class="toggler-icon" src="~/Content/images/hamburger.png" />
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="~/Pages/AllTasks.cshtml" aria-current="page">Back to tasks page</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="form-content">
+    <form method="post">
+        <h3 class="text">Task</h3>
+        <input class="inputs" type="number" name="task" />
+        <h3 class="text">Employee</h3>
+        <input class="inputs" type="number" name="emp" />
+        <button class="btnSubmit" type="submit">Create task</button>
+    </form>
+</div>

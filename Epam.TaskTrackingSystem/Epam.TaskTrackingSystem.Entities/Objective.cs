@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Epam.TaskTrackingSystem.Entities
+﻿namespace Epam.TaskTrackingSystem.Entities
 {
     public class Objective
     {
-        public Objective(int id, int emp_id, string objective, bool isCompleted)
+        public Objective(int id, int? emp_id, string objective, bool isCompleted)
         {
             Id = id;
             Employee_Id = emp_id;
@@ -16,7 +10,7 @@ namespace Epam.TaskTrackingSystem.Entities
             IsCompleted = isCompleted;
         }
         public int Id { get; private set; }
-        public int Employee_Id { get; private set; }
+        public int? Employee_Id { get; private set; }
         public string TaskText { get; private set; }
         public bool IsCompleted { get; private set; }
     }

@@ -9,3 +9,14 @@ C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.Tas
 C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.csproj.CopyComplete
 C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.dll
 C:\Users\stepa\OneDrive\Документы\university\TaskTrakingSystem\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.SqlDAO.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.Entities.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.DAL.Interfaces.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\bin\Debug\Epam.TaskTrackingSystem.Entities.pdb
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.csprojAssemblyReference.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.csproj.CoreCompileInputs.cache
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.csproj.CopyComplete
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.dll
+C:\Users\stepa\OneDrive\Документы\university\TaskTrackingSystemRepos\Epam.TaskTrackingSystem\Epam.TaskTrackingSystem.SqlDAO\obj\Debug\Epam.TaskTrackingSystem.SqlDAO.pdb

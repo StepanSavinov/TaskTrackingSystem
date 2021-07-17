@@ -34,8 +34,9 @@
     border-radius: 20px;
     background-color: #555555;
     color: #51c6fc;
-    padding: 5px;
     width: 150px;
+    padding: 5px;
+    margin: 5%;
     transition: all 0.3s;
 }
 
@@ -49,9 +50,26 @@
         background-color: #51c6fc;
     }
 
+
+
 .text {
     color: #51c6fc;
 }
+
+.task-input {
+    border: 3px solid #51c6fc;
+    border-radius: 10px;
+    background-color: #555555;
+    color: #51c6fc;
+    outline: none;
+    max-height: 250px;
+    transition: all 0.3s;
+}
+
+    .task-input:focus {
+        transition: all 0.3s;
+        box-shadow: 0px 0px 20px #51c6fc;
+    }
 
 body {
     background-repeat: no-repeat;

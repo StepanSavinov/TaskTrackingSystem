@@ -1,0 +1,88 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
+    Page.Title = "Tasks";
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+
+    string email = String.Empty;
+
+    if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+    {
+        FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value);
+
+        email += ticket.Name;
+    }
+}
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="~/Content/images/epam-logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <img class="toggler-icon" src="~/Content/images/hamburger.png" />
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            @if (bll.GetUserRole(email) == "Manager")
+            {
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="~/Pages/Manager.cshtml" aria-current="page">Back to manager page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="~/Pages/CreateTask.cshtml">Create new Task</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="~/Pages/DeleteTask.cshtml">Delete Task</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="~/Pages/AttachTaskToEmp.cshtml">Attach Task to Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="~/Pages/DetachTaskFromEmp.cshtml">Detach Task from Employee</a>
+                </li>
+            </ul>
+            }
+
+            else
+            {
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="~/Pages/Employee.cshtml" aria-current="page">Back to main page</a>
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <table class="table table-dark">
+        <tr class="table-dark">
+            <th class="table-dark">#</th>
+            <th class="table-dark">Employee Id</th>
+            <th class="table-dark">Task</th>
+            <th class="table-dark">Completition</th>
+        </tr>
+
+        @foreach (var task in bll.GetObjectives())
+        {
+            <tr class="table-dark">
+                <td class="table-dark">
+                    @task.Id
+                </td>
+                <td class="table-dark">
+                    @task.Employee_Id
+                </td>
+                <td class="table-dark">
+                    @task.TaskText
+                </td>
+                <td class="table-dark">
+                    @task.IsCompleted
+                </td>
+            </tr>
+        }
+    </table>
+</div>

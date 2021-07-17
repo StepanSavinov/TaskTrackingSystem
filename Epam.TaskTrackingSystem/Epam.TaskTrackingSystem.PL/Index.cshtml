@@ -1,4 +1,5 @@
 ﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
 @{
     Layout = "~/Pages/Layout/_BasicLayout.cshtml";
     Page.Title = "Task Tracking System";
@@ -17,7 +18,17 @@
 
 @if (User.Identity.IsAuthenticated)
 {
-    <span>@bll.GetUserRole(email)</span>
+    if (bll.GetUserRole(email) == "Manager")
+    {
+        @*@RenderPage("~/Pages/Partial/_ManagerPartial.cshtml");*@
+        Response.Redirect("~/Pages/Manager.cshtml");
+    }
+
+    else
+    {
+        @*@RenderPage("~/Pages/Partial/_EmployeePartial.cshtml");*@
+        Response.Redirect("~/Pages/Employee.cshtml");
+    }
 }
 
 

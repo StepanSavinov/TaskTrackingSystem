@@ -1,9 +1,5 @@
 ﻿using Epam.TaskTrackingSystem.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Epam.TaskTrackingSystem.DAL.Interfaces
 {
@@ -14,13 +10,20 @@ namespace Epam.TaskTrackingSystem.DAL.Interfaces
         bool Auth(string email, string password);
 
         string GetUserRole(string email);
+        int GetUserId(string email);
         //bool IsUserInRole(string email, string roleName);
 
         //Task methods
 
         IEnumerable<Objective> GetAllTasks();
-        void AttachTaskToEmployee(int emp_id, int task_id);
-        
+        int GetTaskId(int emp_id);
+        bool HasTask(int emp_id);
+        void CommitTask(int task_id);
+        void CreateTask(string taskText);
+        void DeleteTask(int taskID);
+        void AttachTaskToEmployee(int task_id, int emp_id);
+        void DetachTaskFromEmployee(int task_id, int emp_id);
+
 
     }
 }

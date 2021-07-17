@@ -1,0 +1,16 @@
+﻿@using Epam.TaskTrackingSystem.DependencyResolver;
+
+@{
+    string email = String.Empty;
+
+    if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+    {
+        FormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value);
+
+        email += ticket.Name;
+    }
+
+    var bll = DependenciesResolver.Instance.TaskTrackingSystemLogic;
+    bll.CommitTask(bll.GetTaskId(bll.GetUserId(email)));
+    Response.Redirect("/");
+}
